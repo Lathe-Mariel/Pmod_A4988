@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Module name="matrix_led_driver" Register="24" Alu="8" Lut="63" Bsram="8">
-    <SubModule name="inst_1" Register="12" Alu="10" Lut="5"/>
-    <SubModule name="inst_2" Register="24" Alu="22" Lut="9"/>
+<Module name="top" Register="65" Alu="48" Lut="95">
+    <SubModule name="timer_instance" Register="23" Alu="21" Lut="8"/>
 </Module>

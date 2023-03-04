@@ -18,7 +18,7 @@
  ],
  "LoopLimit" : 2000,
  "ResultFile" : "D:/Git/Pmod_A4988/sample/GOWIN_motor/impl/temp/rtl_parser.result",
- "Top" : "",
+ "Top" : "top",
  "VerilogStd" : "sysv",
  "VhdlStd" : "vhdl_93"
 }

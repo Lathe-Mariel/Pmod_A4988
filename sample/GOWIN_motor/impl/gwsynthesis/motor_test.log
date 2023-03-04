@@ -1,23 +1,18 @@
 GowinSynthesis start
 Running parser ...
-Analyzing Verilog file 'D:\Git\gowin\motor_test\src\debounce.sv'
-WARN  (EX3628) : Redeclaration of ANSI port 'sw_out' is not allowed("D:\Git\gowin\motor_test\src\debounce.sv":6)
-Analyzing Verilog file 'D:\Git\gowin\motor_test\src\timer.sv'
-Analyzing Verilog file 'D:\Git\gowin\motor_test\src\top.sv'
-WARN  (EX3628) : Redeclaration of ANSI port 'onboard_led' is not allowed("D:\Git\gowin\motor_test\src\top.sv":22)
-Compiling module 'matrix_led_driver'("D:\Git\gowin\motor_test\src\top.sv":171)
-WARN  (EX3791) : Expression size 32 truncated to fit in target size 8("D:\Git\gowin\motor_test\src\top.sv":243)
-WARN  (EX3791) : Expression size 5 truncated to fit in target size 4("D:\Git\gowin\motor_test\src\top.sv":267)
-WARN  (EX3791) : Expression size 6 truncated to fit in target size 5("D:\Git\gowin\motor_test\src\top.sv":269)
-WARN  (EX3791) : Expression size 32 truncated to fit in target size 5("D:\Git\gowin\motor_test\src\top.sv":283)
-Compiling module 'timer1(COUNT_MAX=2000)'("D:\Git\gowin\motor_test\src\top.sv":302)
-WARN  (EX3791) : Expression size 12 truncated to fit in target size 11("D:\Git\gowin\motor_test\src\top.sv":316)
-Compiling module 'timer1(COUNT_MAX=4400000)'("D:\Git\gowin\motor_test\src\top.sv":302)
-WARN  (EX3791) : Expression size 24 truncated to fit in target size 23("D:\Git\gowin\motor_test\src\top.sv":316)
-NOTE  (EX0101) : Current top module is "matrix_led_driver"
+Analyzing Verilog file 'D:\Git\Pmod_A4988\sample\GOWIN_motor\src\debounce.sv'
+WARN  (EX3628) : Redeclaration of ANSI port 'sw_out' is not allowed("D:\Git\Pmod_A4988\sample\GOWIN_motor\src\debounce.sv":6)
+Analyzing Verilog file 'D:\Git\Pmod_A4988\sample\GOWIN_motor\src\timer.sv'
+Analyzing Verilog file 'D:\Git\Pmod_A4988\sample\GOWIN_motor\src\top.sv'
+WARN  (EX3628) : Redeclaration of ANSI port 'onboard_led' is not allowed("D:\Git\Pmod_A4988\sample\GOWIN_motor\src\top.sv":22)
+Compiling module 'top'("D:\Git\Pmod_A4988\sample\GOWIN_motor\src\top.sv":1)
+WARN  (EX3780) : Using initial value of 'encoder_counter' since it is never assigned("D:\Git\Pmod_A4988\sample\GOWIN_motor\src\top.sv":41)
+Compiling module 'timer'("D:\Git\Pmod_A4988\sample\GOWIN_motor\src\timer.sv":1)
+WARN  (EX3791) : Expression size 23 truncated to fit in target size 22("D:\Git\Pmod_A4988\sample\GOWIN_motor\src\timer.sv":15)
+WARN  (EX3791) : Expression size 11 truncated to fit in target size 10("D:\Git\Pmod_A4988\sample\GOWIN_motor\src\top.sv":95)
+WARN  (EX3791) : Expression size 16 truncated to fit in target size 6("D:\Git\Pmod_A4988\sample\GOWIN_motor\src\top.sv":158)
+NOTE  (EX0101) : Current top module is "top"
 [5%] Running netlist conversion ...
-WARN  (CV0016) : Input sw1 is unused("D:\Git\gowin\motor_test\src\top.sv":173)
-WARN  (CV0016) : Input diameter is unused("D:\Git\gowin\motor_test\src\top.sv":176)
 Running device independent optimization ...
 [10%] Optimizing Phase 0 completed
 [15%] Optimizing Phase 1 completed
@@ -33,6 +28,6 @@ Running technical mapping ...
 [75%] Tech-Mapping Phase 2 completed
 [80%] Tech-Mapping Phase 3 completed
 [90%] Tech-Mapping Phase 4 completed
-[95%] Generate netlist file "D:\Git\gowin\motor_test\impl\gwsynthesis\motor_test.vg" completed
-[100%] Generate report file "D:\Git\gowin\motor_test\impl\gwsynthesis\motor_test_syn.rpt.html" completed
+[95%] Generate netlist file "D:\Git\Pmod_A4988\sample\GOWIN_motor\impl\gwsynthesis\motor_test.vg" completed
+[100%] Generate report file "D:\Git\Pmod_A4988\sample\GOWIN_motor\impl\gwsynthesis\motor_test_syn.rpt.html" completed
 GowinSynthesis finish

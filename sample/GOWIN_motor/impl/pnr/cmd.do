@@ -1,10 +1,11 @@
--d D:\Git\gowin\motor_test\impl\gwsynthesis\motor_test.vg
--p GW1NR-9C-QFN88P-6
--pn GW1NR-LV9QN88PC6/I5
--cst D:\Git\gowin\motor_test\src\motor_test.cst
--cfg D:\Git\gowin\motor_test\impl\pnr\device.cfg
+-d D:\Git\Pmod_A4988\sample\GOWIN_motor\impl\gwsynthesis\motor_test.vg
+-p GW2A-18C-PBGA256-8
+-pn GW2A-LV18PG256C8/I7
+-cst D:\Git\Pmod_A4988\sample\GOWIN_motor\src\motor_test.cst
+-cfg D:\Git\Pmod_A4988\sample\GOWIN_motor\impl\pnr\device.cfg
 -bit
 -tr
 -ph
 -timing
 -cst_error
+-route_maxfan 23

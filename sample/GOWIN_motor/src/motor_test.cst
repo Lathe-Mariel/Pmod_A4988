@@ -1,75 +1,39 @@
 //Copyright (C)2014-2022 Gowin Semiconductor Corporation.
 //All rights reserved. 
 //File Title: Physical Constraints file
-//GOWIN Version: 1.9.8.03 Education
-//Part Number: GW1NR-LV9QN88PC6/I5
-//Device: GW1NR-9C
-//Created Time: Thu 10 27 01:35:29 2022
+//GOWIN Version: 1.9.8.09 Education
+//Part Number: GW2A-LV18PG256C8/I7
+//Device: GW2A-18C
+//Created Time: Sun 03 05 01:13:07 2023
 
-IO_LOC "onboard_led[5]" 16;
+IO_LOC "onboard_led[5]" L16;
 IO_PORT "onboard_led[5]" PULL_MODE=UP DRIVE=8;
-IO_LOC "onboard_led[4]" 15;
+IO_LOC "onboard_led[4]" L14;
 IO_PORT "onboard_led[4]" PULL_MODE=UP DRIVE=8;
-IO_LOC "onboard_led[3]" 14;
+IO_LOC "onboard_led[3]" N16;
 IO_PORT "onboard_led[3]" PULL_MODE=UP DRIVE=8;
-IO_LOC "onboard_led[2]" 13;
+IO_LOC "onboard_led[2]" N10;
 IO_PORT "onboard_led[2]" PULL_MODE=UP DRIVE=8;
-IO_LOC "onboard_led[1]" 11;
-IO_PORT "onboard_led[1]" PULL_MODE=UP DRIVE=8;
-IO_LOC "onboard_led[0]" 10;
-IO_PORT "onboard_led[0]" PULL_MODE=UP DRIVE=8;
-IO_LOC "motor_direction" 32;
+IO_LOC "onboard_led[1]" A13;
+IO_PORT "onboard_led[1]" IO_TYPE=LVCMOS33 PULL_MODE=UP DRIVE=8;
+IO_LOC "onboard_led[0]" C13;
+IO_PORT "onboard_led[0]" IO_TYPE=LVCMOS33 PULL_MODE=UP DRIVE=8;
+IO_LOC "motor_direction" N7;
 IO_PORT "motor_direction" IO_TYPE=LVCMOS33 PULL_MODE=UP DRIVE=8;
-IO_LOC "motor_enable" 31;
+IO_LOC "motor_enable" N9;
 IO_PORT "motor_enable" IO_TYPE=LVCMOS33 PULL_MODE=UP DRIVE=8;
-IO_LOC "motor_pul" 49;
+IO_LOC "motor_pul" D11;
 IO_PORT "motor_pul" IO_TYPE=LVCMOS33 PULL_MODE=UP DRIVE=8;
-
-IO_LOC "sw" 4;
+IO_LOC "A4988_sleep" N8;
+IO_PORT "A4988_sleep" IO_TYPE=LVCMOS33 PULL_MODE=UP DRIVE=8;
+IO_LOC "A4988_reset" L9;
+IO_PORT "A4988_reset" IO_TYPE=LVCMOS33 PULL_MODE=UP DRIVE=8;
+IO_LOC "MS3" B11;
+IO_PORT "MS3" IO_TYPE=LVCMOS33 PULL_MODE=UP DRIVE=8;
+IO_LOC "MS2" A11;
+IO_PORT "MS2" IO_TYPE=LVCMOS33 PULL_MODE=UP DRIVE=8;
+IO_PORT "MS1" IO_TYPE=LVCMOS33 PULL_MODE=UP DRIVE=8;
+IO_LOC "sw" C7;
 IO_PORT "sw" PULL_MODE=UP;
-IO_LOC "clk" 52;
+IO_LOC "clk" H11;
 IO_PORT "clk" IO_TYPE=LVCMOS33 PULL_MODE=UP;
-IO_LOC "enc_sw" 86;
-IO_PORT "enc_sw" IO_TYPE=LVCMOS18 PULL_MODE=UP;
-IO_LOC "cathode[7]" 74;
-IO_PORT "cathode[7]" IO_TYPE=LVCMOS33 PULL_MODE=UP DRIVE=16;
-IO_LOC "cathode[6]" 71;
-IO_PORT "cathode[6]" IO_TYPE=LVCMOS33 PULL_MODE=UP DRIVE=16;
-IO_LOC "cathode[5]" 76;
-IO_PORT "cathode[5]" IO_TYPE=LVCMOS33 PULL_MODE=UP DRIVE=16;
-IO_LOC "cathode[4]" 70;
-IO_PORT "cathode[4]" IO_TYPE=LVCMOS33 PULL_MODE=UP DRIVE=16;
-IO_LOC "cathode[3]" 40;
-IO_PORT "cathode[3]" IO_TYPE=LVCMOS33 PULL_MODE=UP DRIVE=16;
-IO_LOC "cathode[2]" 77;
-IO_PORT "cathode[2]" IO_TYPE=LVCMOS33 PULL_MODE=UP DRIVE=16;
-IO_LOC "cathode[1]" 41;
-IO_PORT "cathode[1]" IO_TYPE=LVCMOS33 PULL_MODE=UP DRIVE=16;
-IO_LOC "cathode[0]" 30;
-IO_PORT "cathode[0]" IO_TYPE=LVCMOS33 PULL_MODE=UP DRIVE=16;
-IO_LOC "anode[7]" 51;
-IO_PORT "anode[7]" IO_TYPE=LVCMOS33 PULL_MODE=UP DRIVE=16;
-IO_LOC "anode[6]" 42;
-IO_PORT "anode[6]" IO_TYPE=LVCMOS33 PULL_MODE=UP DRIVE=16;
-IO_LOC "anode[5]" 34;
-IO_PORT "anode[5]" IO_TYPE=LVCMOS33 PULL_MODE=UP DRIVE=16;
-IO_LOC "anode[4]" 75;
-IO_PORT "anode[4]" IO_TYPE=LVCMOS33 PULL_MODE=UP DRIVE=16;
-IO_LOC "anode[3]" 33;
-IO_PORT "anode[3]" IO_TYPE=LVCMOS33 PULL_MODE=UP DRIVE=16;
-IO_LOC "anode[2]" 73;
-IO_PORT "anode[2]" IO_TYPE=LVCMOS33 PULL_MODE=UP DRIVE=16;
-IO_LOC "anode[1]" 72;
-IO_PORT "anode[1]" IO_TYPE=LVCMOS33 PULL_MODE=UP DRIVE=16;
-IO_LOC "anode[0]" 35;
-IO_PORT "anode[0]" IO_TYPE=LVCMOS33 PULL_MODE=UP DRIVE=16;
-IO_LOC "boardLED1" 10;
-IO_PORT "boardLED1" IO_TYPE=LVCMOS18 PULL_MODE=UP DRIVE=8;
-IO_LOC "rotary_b" 53;
-IO_PORT "rotary_b" PULL_MODE=UP;
-IO_LOC "rotary_a" 55;
-IO_PORT "rotary_a" IO_TYPE=LVCMOS33 PULL_MODE=UP;
-IO_LOC "rotary2_b" 69;
-IO_PORT "rotary2_b" PULL_MODE=UP;
-IO_LOC "rotary2_a" 57;
-IO_PORT "rotary2_a" PULL_MODE=UP;

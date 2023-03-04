@@ -1,63 +1,29 @@
-Reading netlist file: "D:\Git\gowin\motor_test\impl\gwsynthesis\motor_test.vg"
-Parsing netlist file "D:\Git\gowin\motor_test\impl\gwsynthesis\motor_test.vg" completed
+Reading netlist file: "D:\Git\Pmod_A4988\sample\GOWIN_motor\impl\gwsynthesis\motor_test.vg"
+Parsing netlist file "D:\Git\Pmod_A4988\sample\GOWIN_motor\impl\gwsynthesis\motor_test.vg" completed
 Processing netlist completed
-Reading constraint file: "D:\Git\gowin\motor_test\src\motor_test.cst"
-ERROR  (CT1135) : "D:\Git\gowin\motor_test\src\motor_test.cst":9 | Can't find object named 'onboard_led[5]'
-ERROR  (CT1135) : "D:\Git\gowin\motor_test\src\motor_test.cst":10 | Can't find object named 'onboard_led[5]'
-ERROR  (CT1135) : "D:\Git\gowin\motor_test\src\motor_test.cst":11 | Can't find object named 'onboard_led[4]'
-ERROR  (CT1135) : "D:\Git\gowin\motor_test\src\motor_test.cst":12 | Can't find object named 'onboard_led[4]'
-ERROR  (CT1135) : "D:\Git\gowin\motor_test\src\motor_test.cst":13 | Can't find object named 'onboard_led[3]'
-ERROR  (CT1135) : "D:\Git\gowin\motor_test\src\motor_test.cst":14 | Can't find object named 'onboard_led[3]'
-ERROR  (CT1135) : "D:\Git\gowin\motor_test\src\motor_test.cst":15 | Can't find object named 'onboard_led[2]'
-ERROR  (CT1135) : "D:\Git\gowin\motor_test\src\motor_test.cst":16 | Can't find object named 'onboard_led[2]'
-ERROR  (CT1135) : "D:\Git\gowin\motor_test\src\motor_test.cst":17 | Can't find object named 'onboard_led[1]'
-ERROR  (CT1135) : "D:\Git\gowin\motor_test\src\motor_test.cst":18 | Can't find object named 'onboard_led[1]'
-ERROR  (CT1135) : "D:\Git\gowin\motor_test\src\motor_test.cst":19 | Can't find object named 'onboard_led[0]'
-ERROR  (CT1135) : "D:\Git\gowin\motor_test\src\motor_test.cst":20 | Can't find object named 'onboard_led[0]'
-ERROR  (CT1135) : "D:\Git\gowin\motor_test\src\motor_test.cst":21 | Can't find object named 'motor_direction'
-ERROR  (CT1135) : "D:\Git\gowin\motor_test\src\motor_test.cst":22 | Can't find object named 'motor_direction'
-ERROR  (CT1135) : "D:\Git\gowin\motor_test\src\motor_test.cst":23 | Can't find object named 'motor_enable'
-ERROR  (CT1135) : "D:\Git\gowin\motor_test\src\motor_test.cst":24 | Can't find object named 'motor_enable'
-ERROR  (CT1135) : "D:\Git\gowin\motor_test\src\motor_test.cst":25 | Can't find object named 'motor_pul'
-ERROR  (CT1135) : "D:\Git\gowin\motor_test\src\motor_test.cst":26 | Can't find object named 'motor_pul'
-ERROR  (CT1135) : "D:\Git\gowin\motor_test\src\motor_test.cst":27 | Can't find object named 'enc_b'
-ERROR  (CT1135) : "D:\Git\gowin\motor_test\src\motor_test.cst":28 | Can't find object named 'enc_b'
-ERROR  (CT1135) : "D:\Git\gowin\motor_test\src\motor_test.cst":29 | Can't find object named 'enc_a'
-ERROR  (CT1135) : "D:\Git\gowin\motor_test\src\motor_test.cst":30 | Can't find object named 'enc_a'
-ERROR  (CT1135) : "D:\Git\gowin\motor_test\src\motor_test.cst":31 | Can't find object named 'sw'
-ERROR  (CT1135) : "D:\Git\gowin\motor_test\src\motor_test.cst":32 | Can't find object named 'sw'
-ERROR  (CT1135) : "D:\Git\gowin\motor_test\src\motor_test.cst":35 | Can't find object named 'enc_sw'
-ERROR  (CT1135) : "D:\Git\gowin\motor_test\src\motor_test.cst":36 | Can't find object named 'enc_sw'
-ERROR  (CT1135) : "D:\Git\gowin\motor_test\src\motor_test.cst":37 | Can't find object named 'cathode[7]'
-ERROR  (CT1135) : "D:\Git\gowin\motor_test\src\motor_test.cst":38 | Can't find object named 'cathode[7]'
-ERROR  (CT1135) : "D:\Git\gowin\motor_test\src\motor_test.cst":39 | Can't find object named 'cathode[6]'
-ERROR  (CT1135) : "D:\Git\gowin\motor_test\src\motor_test.cst":40 | Can't find object named 'cathode[6]'
-ERROR  (CT1135) : "D:\Git\gowin\motor_test\src\motor_test.cst":41 | Can't find object named 'cathode[5]'
-ERROR  (CT1135) : "D:\Git\gowin\motor_test\src\motor_test.cst":42 | Can't find object named 'cathode[5]'
-ERROR  (CT1135) : "D:\Git\gowin\motor_test\src\motor_test.cst":43 | Can't find object named 'cathode[4]'
-ERROR  (CT1135) : "D:\Git\gowin\motor_test\src\motor_test.cst":44 | Can't find object named 'cathode[4]'
-ERROR  (CT1135) : "D:\Git\gowin\motor_test\src\motor_test.cst":45 | Can't find object named 'cathode[3]'
-ERROR  (CT1135) : "D:\Git\gowin\motor_test\src\motor_test.cst":46 | Can't find object named 'cathode[3]'
-ERROR  (CT1135) : "D:\Git\gowin\motor_test\src\motor_test.cst":47 | Can't find object named 'cathode[2]'
-ERROR  (CT1135) : "D:\Git\gowin\motor_test\src\motor_test.cst":48 | Can't find object named 'cathode[2]'
-ERROR  (CT1135) : "D:\Git\gowin\motor_test\src\motor_test.cst":49 | Can't find object named 'cathode[1]'
-ERROR  (CT1135) : "D:\Git\gowin\motor_test\src\motor_test.cst":50 | Can't find object named 'cathode[1]'
-ERROR  (CT1135) : "D:\Git\gowin\motor_test\src\motor_test.cst":51 | Can't find object named 'cathode[0]'
-ERROR  (CT1135) : "D:\Git\gowin\motor_test\src\motor_test.cst":52 | Can't find object named 'cathode[0]'
-ERROR  (CT1135) : "D:\Git\gowin\motor_test\src\motor_test.cst":53 | Can't find object named 'anode[7]'
-ERROR  (CT1135) : "D:\Git\gowin\motor_test\src\motor_test.cst":54 | Can't find object named 'anode[7]'
-ERROR  (CT1135) : "D:\Git\gowin\motor_test\src\motor_test.cst":55 | Can't find object named 'anode[6]'
-ERROR  (CT1135) : "D:\Git\gowin\motor_test\src\motor_test.cst":56 | Can't find object named 'anode[6]'
-ERROR  (CT1135) : "D:\Git\gowin\motor_test\src\motor_test.cst":57 | Can't find object named 'anode[5]'
-ERROR  (CT1135) : "D:\Git\gowin\motor_test\src\motor_test.cst":58 | Can't find object named 'anode[5]'
-ERROR  (CT1135) : "D:\Git\gowin\motor_test\src\motor_test.cst":59 | Can't find object named 'anode[4]'
-ERROR  (CT1135) : "D:\Git\gowin\motor_test\src\motor_test.cst":60 | Can't find object named 'anode[4]'
-ERROR  (CT1135) : "D:\Git\gowin\motor_test\src\motor_test.cst":61 | Can't find object named 'anode[3]'
-ERROR  (CT1135) : "D:\Git\gowin\motor_test\src\motor_test.cst":62 | Can't find object named 'anode[3]'
-ERROR  (CT1135) : "D:\Git\gowin\motor_test\src\motor_test.cst":63 | Can't find object named 'anode[2]'
-ERROR  (CT1135) : "D:\Git\gowin\motor_test\src\motor_test.cst":64 | Can't find object named 'anode[2]'
-ERROR  (CT1135) : "D:\Git\gowin\motor_test\src\motor_test.cst":65 | Can't find object named 'anode[1]'
-ERROR  (CT1135) : "D:\Git\gowin\motor_test\src\motor_test.cst":66 | Can't find object named 'anode[1]'
-ERROR  (CT1135) : "D:\Git\gowin\motor_test\src\motor_test.cst":67 | Can't find object named 'anode[0]'
-ERROR  (CT1135) : "D:\Git\gowin\motor_test\src\motor_test.cst":68 | Can't find object named 'anode[0]'
-Physical Constraint parsed completed with errors
+Reading constraint file: "D:\Git\Pmod_A4988\sample\GOWIN_motor\src\motor_test.cst"
+Physical Constraint parsed completed
+Running placement......
+[10%] Placement Phase 0 completed
+[20%] Placement Phase 1 completed
+[30%] Placement Phase 2 completed
+[50%] Placement Phase 3 completed
+Running routing......
+[60%] Routing Phase 0 completed
+[70%] Routing Phase 1 completed
+[80%] Routing Phase 2 completed
+[90%] Routing Phase 3 completed
+Running timing analysis......
+[95%] Timing analysis completed
+Placement and routing completed
+Bitstream generation in progress......
+Bitstream generation completed
+Running power analysis......
+[100%] Power analysis completed
+Generate file "D:\Git\Pmod_A4988\sample\GOWIN_motor\impl\pnr\motor_test.power.html" completed
+Generate file "D:\Git\Pmod_A4988\sample\GOWIN_motor\impl\pnr\motor_test.pin.html" completed
+Generate file "D:\Git\Pmod_A4988\sample\GOWIN_motor\impl\pnr\motor_test.rpt.html" completed
+Generate file "D:\Git\Pmod_A4988\sample\GOWIN_motor\impl\pnr\motor_test.rpt.txt" completed
+Generate file "D:\Git\Pmod_A4988\sample\GOWIN_motor\impl\pnr\motor_test.tr.html" completed
+Sun Mar 05 02:43:32 2023
+

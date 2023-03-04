@@ -1,0 +1,62 @@
+[
+ {
+  "InstFile" : "D:/Git/Pmod_A4988/sample/GOWIN_motor/src/top.sv",
+  "InstLine" : 1,
+  "InstName" : "top",
+  "ModuleFile" : "D:/Git/Pmod_A4988/sample/GOWIN_motor/src/top.sv",
+  "ModuleLine" : 1,
+  "ModuleName" : "top",
+  "SubInsts" : [
+   {
+    "InstFile" : "D:/Git/Pmod_A4988/sample/GOWIN_motor/src/top.sv",
+    "InstLine" : 38,
+    "InstName" : "timer_instance",
+    "ModuleFile" : "D:/Git/Pmod_A4988/sample/GOWIN_motor/src/timer.sv",
+    "ModuleLine" : 1,
+    "ModuleName" : "timer"
+   },
+   {
+    "InstFile" : "D:/Git/Pmod_A4988/sample/GOWIN_motor/src/top.sv",
+    "InstLine" : 47,
+    "InstName" : "deb_rotary_a",
+    "ModuleFile" : "D:/Git/Pmod_A4988/sample/GOWIN_motor/src/debounce.sv",
+    "ModuleLine" : 1,
+    "ModuleName" : "sw_debounce"
+   },
+   {
+    "InstFile" : "D:/Git/Pmod_A4988/sample/GOWIN_motor/src/top.sv",
+    "InstLine" : 48,
+    "InstName" : "deb_rotary_b",
+    "ModuleFile" : "D:/Git/Pmod_A4988/sample/GOWIN_motor/src/debounce.sv",
+    "ModuleLine" : 1,
+    "ModuleName" : "sw_debounce"
+   }
+  ]
+ },
+ {
+  "InstFile" : "D:/Git/Pmod_A4988/sample/GOWIN_motor/src/top.sv",
+  "InstLine" : 174,
+  "InstName" : "matrix_led_driver",
+  "ModuleFile" : "D:/Git/Pmod_A4988/sample/GOWIN_motor/src/top.sv",
+  "ModuleLine" : 174,
+  "ModuleName" : "matrix_led_driver",
+  "SubInsts" : [
+   {
+    "InstFile" : "D:/Git/Pmod_A4988/sample/GOWIN_motor/src/top.sv",
+    "InstLine" : 291,
+    "InstName" : "inst_1",
+    "ModuleFile" : "D:/Git/Pmod_A4988/sample/GOWIN_motor/src/top.sv",
+    "ModuleLine" : 305,
+    "ModuleName" : "timer1"
+   },
+   {
+    "InstFile" : "D:/Git/Pmod_A4988/sample/GOWIN_motor/src/top.sv",
+    "InstLine" : 298,
+    "InstName" : "inst_2",
+    "ModuleFile" : "D:/Git/Pmod_A4988/sample/GOWIN_motor/src/top.sv",
+    "ModuleLine" : 305,
+    "ModuleName" : "timer1"
+   }
+  ]
+ }
+]

@@ -1,0 +1,10 @@
+-d D:\Git\gowin\motor_test\impl\gwsynthesis\motor_test.vg
+-p GW1NR-9C-QFN88P-6
+-pn GW1NR-LV9QN88PC6/I5
+-cst D:\Git\gowin\motor_test\src\motor_test.cst
+-cfg D:\Git\gowin\motor_test\impl\pnr\device.cfg
+-bit
+-tr
+-ph
+-timing
+-cst_error

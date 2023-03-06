@@ -17,7 +17,7 @@
   "SubInsts" : [
    {
     "InstFile" : "D:/Git/Pmod_A4988/sample/GOWIN_motor/src/top.sv",
-    "InstLine" : 34,
+    "InstLine" : 42,
     "InstName" : "timer_instance",
     "ModuleFile" : "D:/Git/Pmod_A4988/sample/GOWIN_motor/src/timer.sv",
     "ModuleLine" : 1,
@@ -27,10 +27,10 @@
  },
  {
   "InstFile" : "D:/Git/Pmod_A4988/sample/GOWIN_motor/src/top.sv",
-  "InstLine" : 162,
+  "InstLine" : 170,
   "InstName" : "timer1",
   "ModuleFile" : "D:/Git/Pmod_A4988/sample/GOWIN_motor/src/top.sv",
-  "ModuleLine" : 162,
+  "ModuleLine" : 170,
   "ModuleName" : "timer1"
  }
 ]

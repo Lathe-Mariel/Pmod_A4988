@@ -4,14 +4,22 @@ Analyzing Verilog file 'D:\Git\Pmod_A4988\sample\GOWIN_motor\src\debounce.sv'
 WARN  (EX3628) : Redeclaration of ANSI port 'sw_out' is not allowed("D:\Git\Pmod_A4988\sample\GOWIN_motor\src\debounce.sv":6)
 Analyzing Verilog file 'D:\Git\Pmod_A4988\sample\GOWIN_motor\src\timer.sv'
 Analyzing Verilog file 'D:\Git\Pmod_A4988\sample\GOWIN_motor\src\top.sv'
-WARN  (EX3628) : Redeclaration of ANSI port 'onboard_led' is not allowed("D:\Git\Pmod_A4988\sample\GOWIN_motor\src\top.sv":22)
+WARN  (EX3628) : Redeclaration of ANSI port 'onboard_led' is not allowed("D:\Git\Pmod_A4988\sample\GOWIN_motor\src\top.sv":30)
 Compiling module 'top'("D:\Git\Pmod_A4988\sample\GOWIN_motor\src\top.sv":1)
-WARN  (EX3780) : Using initial value of 'encoder_counter' since it is never assigned("D:\Git\Pmod_A4988\sample\GOWIN_motor\src\top.sv":41)
+WARN  (EX3780) : Using initial value of 'encoder_counter' since it is never assigned("D:\Git\Pmod_A4988\sample\GOWIN_motor\src\top.sv":49)
 Compiling module 'timer'("D:\Git\Pmod_A4988\sample\GOWIN_motor\src\timer.sv":1)
 WARN  (EX3791) : Expression size 23 truncated to fit in target size 22("D:\Git\Pmod_A4988\sample\GOWIN_motor\src\timer.sv":15)
-WARN  (EX3791) : Expression size 11 truncated to fit in target size 10("D:\Git\Pmod_A4988\sample\GOWIN_motor\src\top.sv":95)
-WARN  (EX3791) : Expression size 16 truncated to fit in target size 6("D:\Git\Pmod_A4988\sample\GOWIN_motor\src\top.sv":158)
+WARN  (EX3791) : Expression size 11 truncated to fit in target size 10("D:\Git\Pmod_A4988\sample\GOWIN_motor\src\top.sv":103)
+WARN  (EX3791) : Expression size 16 truncated to fit in target size 6("D:\Git\Pmod_A4988\sample\GOWIN_motor\src\top.sv":166)
 NOTE  (EX0101) : Current top module is "top"
+WARN  (EX0211) : The output port "MS1_ch2" of module "top" has no driver, assigning undriven bits to Z, simulation mismatch possible("D:\Git\Pmod_A4988\sample\GOWIN_motor\src\top.sv":13)
+WARN  (EX0211) : The output port "MS2_ch2" of module "top" has no driver, assigning undriven bits to Z, simulation mismatch possible("D:\Git\Pmod_A4988\sample\GOWIN_motor\src\top.sv":14)
+WARN  (EX0211) : The output port "MS3_ch2" of module "top" has no driver, assigning undriven bits to Z, simulation mismatch possible("D:\Git\Pmod_A4988\sample\GOWIN_motor\src\top.sv":15)
+WARN  (EX0211) : The output port "motor_pul_ch2" of module "top" has no driver, assigning undriven bits to Z, simulation mismatch possible("D:\Git\Pmod_A4988\sample\GOWIN_motor\src\top.sv":16)
+WARN  (EX0211) : The output port "motor_enable_ch2" of module "top" has no driver, assigning undriven bits to Z, simulation mismatch possible("D:\Git\Pmod_A4988\sample\GOWIN_motor\src\top.sv":17)
+WARN  (EX0211) : The output port "motor_direction_ch2" of module "top" has no driver, assigning undriven bits to Z, simulation mismatch possible("D:\Git\Pmod_A4988\sample\GOWIN_motor\src\top.sv":18)
+WARN  (EX0211) : The output port "A4988_sleep_ch2" of module "top" has no driver, assigning undriven bits to Z, simulation mismatch possible("D:\Git\Pmod_A4988\sample\GOWIN_motor\src\top.sv":19)
+WARN  (EX0211) : The output port "A4988_reset_ch2" of module "top" has no driver, assigning undriven bits to Z, simulation mismatch possible("D:\Git\Pmod_A4988\sample\GOWIN_motor\src\top.sv":20)
 [5%] Running netlist conversion ...
 Running device independent optimization ...
 [10%] Optimizing Phase 0 completed

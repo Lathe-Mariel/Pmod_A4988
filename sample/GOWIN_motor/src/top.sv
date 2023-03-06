@@ -9,7 +9,15 @@ output wire motor_enable,
 output wire motor_direction,
 output wire A4988_sleep,
 output wire A4988_reset,
-output wire [5:0] onboard_led
+output wire [5:0] onboard_led,
+output wire MS1_ch2,
+output wire MS2_ch2,
+output wire MS3_ch2,
+output wire motor_pul_ch2,
+output wire motor_enable_ch2,
+output wire motor_direction_ch2,
+output wire A4988_sleep_ch2,
+output wire A4988_reset_ch2
 );
 
 logic overflow;
@@ -26,10 +34,10 @@ reg m_enable;
 reg [8:0] encoder_counter;
 
 parameter FULL_STROKE_STEP = 16'd32768;
-parameter ACCEL1 = 16'd100;   //accel rate 1/4
-parameter ACCEL2 = 16'd400;  //accel rate 1/2
-parameter ACCEL3 = 16'd1440;  //up to FIRST_INTERVAL
-parameter FIRST_INTERVAL = 16'd1450;
+parameter ACCEL1 = 16'd50;   //accel rate 1/4
+parameter ACCEL2 = 16'd150;  //accel rate 1/2
+parameter ACCEL3 = 16'd440;  //up to FIRST_INTERVAL
+parameter FIRST_INTERVAL = 16'd450;
 
 timer timer_instance(clk, overflow);
 
@@ -91,7 +99,7 @@ end
 
 always @(posedge pulse_triger)begin
   if(sleep)begin
-    m_enable = 1'b1;
+    //m_enable = 1'b1;
     sleep <= sleep + 'd1;
   end
   else begin
